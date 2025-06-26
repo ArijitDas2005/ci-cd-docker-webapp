@@ -6,7 +6,7 @@ This project demonstrates a fully automated **CI/CD pipeline** for a simple **Fl
 
 ## 🛠️ Tech Stack
 
-- **Python 3.9** / Flask
+- **Python 3.12** / Flask
 - **Docker** (Containerization)
 - **GitHub Actions** (CI/CD)
 - **Docker Hub** (Image Registry)
