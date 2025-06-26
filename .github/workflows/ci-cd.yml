@@ -42,4 +42,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Push Docker Image
-      run: docker push your-dockerhub-username/ci-cd-docker-webapp
+      run: docker push arijit2005/ci-cd-docker-webapp
