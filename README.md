@@ -39,7 +39,7 @@ The containerized app is also available on Docker Hub:
 
 👉 [`arijit2005/ci-cd-docker-webapp`](https://hub.docker.com/r/arijit2005/ci-cd-docker-webapp)
 
-To pull and run:
+To pull and run the app locally:
 
 ```bash
 docker pull arijit2005/ci-cd-docker-webapp
