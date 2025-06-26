@@ -1,5 +1,7 @@
 # 🚀 CI/CD Docker Web App with GitHub Actions
 
+[![CI](https://github.com/ArijitDas2005/ci-cd-docker-webapp/actions/workflows/ci.yml/badge.svg)](https://github.com/ArijitDas2005/ci-cd-docker-webapp/actions)
+
 This project demonstrates a fully automated **CI/CD pipeline** for a simple **Flask-based Python web app**, using **GitHub Actions** for integration and **Docker Hub** for container registry.
 
 ---
@@ -20,23 +22,25 @@ This project demonstrates a fully automated **CI/CD pipeline** for a simple **Fl
 ✅ Simple Python Flask Web App  
 ✅ Dockerfile for containerization  
 ✅ GitHub Actions Workflow to:
-- Lint Python code (flake8)
-- Run unit tests (pytest)
+- Lint Python code (`flake8`)
+- Run unit tests (`pytest`)
 - Build Docker image
 - Push image to Docker Hub
 
-✅ `.dockerignore` for cleaner image  
+✅ `.dockerignore` for cleaner images  
 ✅ Unit test to validate app endpoint  
 ✅ Ready for deployment
 
 ---
 
-## 🚀 Local Setup
+## 🐳 Docker Image
 
-Clone the repo and install dependencies:
+The containerized app is also available on Docker Hub:
+
+👉 [`arijit2005/ci-cd-docker-webapp`](https://hub.docker.com/r/arijit2005/ci-cd-docker-webapp)
+
+To pull and run:
 
 ```bash
-git clone https://github.com/your-username/ci-cd-docker-webapp.git
-cd ci-cd-docker-webapp
-pip install -r requirements.txt
-python app.py
+docker pull arijit2005/ci-cd-docker-webapp
+docker run -p 5000:5000 arijit2005/ci-cd-docker-webapp
